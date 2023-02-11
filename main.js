@@ -2,8 +2,8 @@ import express from 'express';
 const app=express(); 
 const port= 9000;
 
-app.use("/",(req,res)=>{
-    res.json({"greet":"hello"})
+app.use("/status",(req,res)=>{
+    res.json({"status":"Running..."})
 })
 
 
