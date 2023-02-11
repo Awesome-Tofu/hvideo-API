@@ -1,6 +1,7 @@
-const axios=require('axios');
-const cheerio=require('cheerio');
-const express=require('express');
+
+import axios from 'axios'
+import cheerio from 'cheerio';
+import express from 'express';
 const app=express();
 const PORT= 3000;
 
