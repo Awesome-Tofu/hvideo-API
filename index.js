@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
       const hvid1 = results[0].video_1;
     //   const hvid2 = results[0].video_2;
       const data={ vid: hvid1,status:200 };
-      res.status(200).json(data);
+     res.send(data);
     }).catch((err) => {
         res.send({vid_1:"Something Went Wrong!",status:401});
     });
